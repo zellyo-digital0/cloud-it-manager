@@ -1,0 +1,285 @@
+/*Extra small devices (portrait phones, less than 320px)*/
+@media  (max-width: 320px){
+
+
+
+
+
+}
+/*Extra small devices (portrait phones, less than 360px)*/
+@media  (max-width: 360px){
+
+
+
+
+
+
+
+
+}
+/*Extra small devices (portrait phones, less than 375px)*/
+@media  (max-width: 375px){
+
+
+
+
+
+
+}
+/*Extra small devices (portrait phones, less than 414px)*/
+@media  (max-width: 414px){
+
+
+
+
+
+
+
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	header .navbar-collapse ul {
+		padding-top: 20px;
+	}
+	#clouditmanager {
+		padding: 80px 0;
+	}
+	.common_section {
+		padding-bottom: 60px;
+	}
+	.common_section .common_section_inner img {
+		width: 80%;
+	}
+	.common_section .common_section_inner p,
+	.la_piattaforma p,.header_banner_inner p {
+		letter-spacing: 1px;
+		font-size: 16px;
+		width: 100%;
+		text-align: left;
+	}
+	.service {
+		padding: 60px 0;
+	}
+	.vuoi_maggiori h1 {
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
+	.header_banner {
+		background: none;
+		padding-top: 80px;
+	}
+	.header_banner_inner img {
+		width: 70%;
+	}
+	.header_banner_inner h1 {
+		margin-bottom: 0;
+		margin-top: 10px;
+		font-size: 36px;
+	}
+	.la_piattaforma {
+		padding-top: 30px;
+		margin-bottom: 40px;
+	}
+
+.la_piattaforma p i {
+    top: 7px;
+    left: -20px;
+}
+.service .service_inner h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header .navbar-collapse ul {
+		padding-top: 20px;
+	}
+	#clouditmanager {
+		padding: 80px 0;
+	}
+	.common_section {
+		padding-bottom: 60px;
+	}
+	.common_section .common_section_inner img {
+		width: 70%;
+	}
+	.common_section .common_section_inner p,
+	.la_piattaforma p {
+		letter-spacing: 2px;
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.header_banner {
+		background: none;
+		padding-top: 80px;
+	}
+	.header_banner_inner img {
+		width: 65%;
+	}
+	.header_banner_inner h1 {
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+
+	.la_piattaforma {
+		padding-top: 40px;
+		margin-bottom: 40px;
+	}
+
+.la_piattaforma p i {
+    font-size: 10px;
+    top: 6px;
+    left: -25px;
+}
+
+
+
+
+.la_piattaforma p {
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.service .service_inner h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	header .navbar-collapse ul {
+		padding-top: 20px;
+	}
+	#clouditmanager {
+		padding: 80px 0;
+	}
+	.common_section {
+		padding-bottom: 60px;
+	}
+	.common_section .common_section_inner img {
+		width: 70%;
+	}
+	.common_section .common_section_inner p,
+	.la_piattaforma p {
+		letter-spacing: 2px;
+		font-size: 18px;
+		width: 100%;
+	}
+
+
+	.header_banner {
+		background: none;
+		padding-top: 80px;
+	}
+	.header_banner_inner img {
+		width: 65%;
+	}
+	.header_banner_inner h1 {
+		margin-bottom: 0;
+		margin-top: 10px;
+	}
+	.la_piattaforma {
+		padding-top: 60px;
+		margin-bottom: 40px;
+	}
+
+.service .service_inner h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.common_section .common_section_inner p,
+	.la_piattaforma p {
+		letter-spacing: 2px;
+		font-size: 18px;
+	}
+
+	.service .service_inner h4 {
+		font-size: 17px;
+	}
+	.header_banner {
+		background: url(../img/bg_banner.png);
+		background-size: 150% 95%;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-color: #fff;
+		padding-top: 111px;
+		margin-top: -5px;
+	}
+	.la_piattaforma {
+		padding-top: 80px;
+	}
+
+
+}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+
+
+}
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1440px) and (max-width: 1699.98px){
+/*.header_banner .header_banner_2 img{
+width: 110%;
+}
+*/
+/*.header_banner {
+background-size: 110% 102%;
+}
+*/
+}
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) and (max-width: 2099.98px){
+
+
+
+
+
+
+}
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 2100px){
+
+
+
+
+}

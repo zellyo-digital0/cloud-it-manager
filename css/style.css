@@ -1,0 +1,204 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #000;
+}
+header {
+	padding: 10px 0;
+	background: #fff;
+	border-bottom: 2px solid #f3f3f6;
+}
+header .navbar-brand{
+	padding: 0;
+}
+header .navbar-brand img{
+	width: 150px;
+}
+header .navbar-toggler{}
+header .navbar-toggler span{}
+header .navbar-toggler span i{
+	font-size: 22px;
+}
+header .navbar-collapse{}
+header .navbar-collapse ul{}
+header .navbar-collapse ul li{}
+header .navbar-collapse ul li a {
+	padding: 10px 20px !important;
+	border-bottom: 2px solid transparent;
+	color: #000;
+	font-weight: 700;
+	transition: all ease .4s;
+}
+header .navbar-collapse ul li a:hover{
+	opacity: .8;
+	border-bottom: 2px solid #000;
+}
+.current {
+	opacity: .8;
+    border-bottom: 2px solid #000 !important;
+}
+/*header end*/
+/*header banner start*/
+.header_banner {
+    background: url(../img/bg_banner.png);
+    background-size: 115% 80%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding-top: 80px;
+    margin-top: -5px;
+}
+.header_banner_inner{}
+.header_banner_inner h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.header_banner_inner p {
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: orange;
+    font-weight: 600;
+}
+.header_banner_inner img{}
+/*.header_banner .header_banner_2{}
+.header_banner .header_banner_2 img{
+width: 100%;
+}*/
+/*header banner end*/
+/*common_section start*/
+#clouditmanager {
+	padding: 150px 0 20px 0;
+	background: #fff;
+}
+.common_section{
+	padding-bottom: 150px;
+	background:#fff;
+}
+.common_section .common_section_inner{}
+.common_section .common_section_inner img{}
+.common_section .common_section_inner p,
+.la_piattaforma p{
+	letter-spacing: 3px;
+	font-size: 18px;
+	margin-bottom: 0;
+	position: relative;
+}
+.la_piattaforma_custom p {
+    font-size: 18px;
+    width: 90% !important;
+    margin-bottom: 27px !important;
+}
+.la_piattaforma p i {
+    font-size: 10px;
+    position: absolute;
+    top: 8px;
+    left: -30px;
+    color: orange;
+}
+
+
+.wrapper_bodey {
+    padding: 60px 0;
+}
+.wrapper_bodey h2{
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+.la_piattaforma{
+	padding-top: 150px;
+	margin-bottom: 60px;
+	background:#fff;
+}
+.la_piattaforma h2{
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.la_piattaforma p{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+/*common_section end*/
+/*service section start*/
+.service {
+	padding: 0 !important;
+}
+.service .service_inner{}
+.service .service_inner span i {
+    font-size: 55px;
+    color: orange;
+}
+.service .service_inner h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.service .service_inner  p{
+	margin-bottom: 0;
+	font-size: 16px;
+}
+/*service section end*/
+/*vuoi_maggiori start*/
+.vuoi_maggiori {
+    padding: 40px 0 60px 0;
+}
+.vuoi_maggiori h1{
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.vuoi_maggiori a {
+    display: inline-block;
+    background: orange;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    transition: all ease .6s;
+}
+.vuoi_maggiori a:hover{
+	text-decoration: none;
+	opacity: .8;
+}
+/*vuoi_maggiori end*/
+/*footer start*/
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #5e6067;
+    font-weight: 700;
+}
+footer .footer_1{
+	padding-bottom: 40px;
+}
+footer .footer_1 h4{
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #141824;
+}
+footer .footer_1 p{
+	margin-bottom: 0;
+}
+footer .footer_1 a{
+	display: inline-block;
+	color: #5e6067;
+}
+footer .footer_2{}
+footer .footer_2 p{
+	margin-bottom: 0;
+	font-size: 14px;
+}
+/*footer end*/
